@@ -40,8 +40,8 @@ git push -u master          -> Envia o repositório para o github
 
 Criando repositórios e clonando
 git clone https://github.com/{usuariogithub}/nomeprojeto.git -> faz um clone do projeto do github local
-git push                    -> envia as alterações para o github
+git push                    -> envia as alterações para o github, geralmente quando o arquivo foi dado commit e esta pronto para ir para produção
 
 Sincronizar um projeto
 git pull                    -> Sincroniza um projeto
-git fetch                   -> Faz o download das alterações do repositório remoto para analise
+git fetch                   -> Faz o download das alterações do repositório remoto para o repositório local, para que seja feita uma análise e resolver os problemas de conflitos
