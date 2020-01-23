@@ -1,0 +1,47 @@
+DEFININDO NOME E EMAIL PARA O GIT
+----------------------------------------------------------------
+git config --global user.name "Meu nome"
+git config -- global user.email "Meu email"
+
+
+COMANDOS BÁSICOS
+----------------------------------------------------------------
+clear                       -> Limpa a tela
+pwd                         -> Mostra o local que esta no momento
+cd                          -> Entra na pasta
+ls                          -> Lê um diretório
+mkdir teste                 -> Cria um diretorio "teste"
+touch arquivo.txt           -> Cria um arquivo arquivo.txt
+
+
+COMANDOS AVANÇADOS
+----------------------------------------------------------------
+git init                    -> Inicia um projeto
+git status                  -> Verifica o status do projeto: se há modificações, como exclusão, adição, edição
+git add a.txt               -> Envia o arquivo a.txt para o container
+git commit -m "Comentário"  -> Libera o arquivo do container com o comentário "Comentário"
+git commit -am "Comentário" -> Envia o arquivo para o container, e libera o arquivo com o comentário "Comentário"
+git log                     -> Mostra todas as ocorrências feitas no projeto
+git log --oneline           -> Mostra todas as ocorrências feitas no projeto de forma simplificada
+git log --graph             -> Mostra o grafo de commits das ocorrências
+git branch                  -> Mostra o ramo que está: Ramo principal (Master)
+git checkout 1c6a91c        -> Seta o ramo para uma versão especifica
+git checkout master         -> Volta o ramo principal para master
+git diff                    -> Exibe o conteúdo que foi modificado
+git reset HEAD              -> Remove arquivo do container
+git reset --hard 6c57e98    -> Remove o commit do container
+
+Criando ramificações
+git checkout -b teste       -> Cria uma nova ramificação chamada teste
+git merge teste             -> Mescla a ramificação teste a ramificação master
+git remote                  -> Verifica se há um repositório remoto
+git remote add origin https://github.com/{usuariogithub}/nomeprojeto.git -> adiciona o repositório no github
+git push -u master          -> Envia o repositório para o github
+
+Criando repositórios e clonando
+git clone https://github.com/{usuariogithub}/nomeprojeto.git -> faz um clone do projeto do github local
+git push                    -> envia as alterações para o github
+
+Sincronizar um projeto
+git pull                    -> Sincroniza um projeto
+git fetch                   -> Faz o download das alterações do repositório remoto para analise
