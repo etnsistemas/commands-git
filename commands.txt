@@ -1,8 +1,9 @@
-﻿
-DEFININDO NOME E EMAIL PARA O GIT
+﻿DEFININDO NOME E EMAIL PARA O GIT
 ----------------------------------------------------------------
 git config --global user.name "Meu nome"
 git config -- global user.email "Meu email"
+
+->T
 
 COMANDOS BÁSICOS
 ----------------------------------------------------------------
