@@ -2,7 +2,7 @@
 ----------------------------------------------------------------
 git config --global user.name "Meu nome"
 git config -- global user.email "Meu email"
-1
+2
 COMANDOS BÁSICOS
 ----------------------------------------------------------------
 clear                       -> Limpa a tela
