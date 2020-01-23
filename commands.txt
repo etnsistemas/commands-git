@@ -3,8 +3,6 @@
 git config --global user.name "Meu nome"
 git config -- global user.email "Meu email"
 
-->T
-
 COMANDOS BÁSICOS
 ----------------------------------------------------------------
 clear                       -> Limpa a tela
@@ -46,3 +44,9 @@ git push                    -> envia as alterações para o github, geralmente q
 Sincronizar um projeto
 git pull                    -> Sincroniza um projeto
 git fetch                   -> Faz o download das alterações do repositório remoto para o repositório local, para que seja feita uma análise e resolver os problemas de conflitos
+
+
+LIMPANDO AS CREDENCIAIS
+----------------------------------------------------------------
+control panel > user accounts > credential manager > Windows credentials > Generic credentials
+
