@@ -3,8 +3,6 @@
 git config --global user.name "Meu nome"
 git config -- global user.email "Meu email"
 
-->T
-
 COMANDOS BÁSICOS
 ----------------------------------------------------------------
 clear                       -> Limpa a tela
