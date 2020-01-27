@@ -30,6 +30,9 @@ git diff                    -> Exibe o conteúdo que foi modificado
 git reset HEAD              -> Remove arquivo do container
 git reset --hard 6c57e98    -> Remove o commit do container
 
+git log --oneline --decorate --all --graph 	-> Melhor forma de ver as branchs 
+git branch -D <nome do branch>   		-> Remove um branch
+
 Criando ramificações
 git checkout -b teste       -> Cria uma nova ramificação chamada teste
 git merge teste             -> Mescla a ramificação teste a ramificação master
